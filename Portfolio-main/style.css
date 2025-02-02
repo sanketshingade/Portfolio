@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-container img {
+  width: 100px;
+  height: auto; /* Adjusts height automatically to maintain aspect ratio */
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.header-info h1 {
+  margin: 0;
+}
+
+.contact-info a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+nav {
+  background-color: #333;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 20px;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: 20px;
+}
+
+h2, h3 {
+  color: #333;
+}
+
+h3 {
+  margin-top: 0;
+  color: #007BFF;
+}
+
+.project p {
+  margin: 5px 0;
+}
+
+hr {
+  margin-top: 20px;
+  border: 0;
+  border-top: 2px solid #ccc;
+  margin-bottom: 20px;
+}
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 5px 0; /* Reduced padding */
+  font-size: 12px; /* Smaller font size */
+  position: relative;
+  width: 100%;
+}
+
+.footer-container p {
+  margin: 5px 0;
+}
+
+.footer-container a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px; /* Adjusted margin */
+  font-size: 12px; /* Smaller font size */
+}
+
+.footer-container a:hover {
+  text-decoration: underline;
+}
